@@ -1,0 +1,24 @@
+{
+  "query": {
+    "pages": [
+      {
+        "pageid": 195656,
+        "ns": 0,
+        "title": "European nightjar",
+        "redirects": [
+          {
+            "pageid": 12421648,
+            "ns": 0,
+            "title": "Vaurie's nightjar"
+          },
+          {
+            "pageid": 12421650,
+            "ns": 0,
+            "title": "Caprimulgus centralasicus"
+          }
+        ]
+      }
+    ]
+  },
+  "batchcomplete": true
+}

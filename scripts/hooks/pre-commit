@@ -1,0 +1,31 @@
+#!/bin/sh
+# Block commits that would leak secrets. Enabled via: git config core.hooksPath scripts/hooks
+#   1. Any staged .env file other than .env.example, or anything under data/private/
+#      (data whose license forbids redistribution, e.g. the IUCN snapshot).
+#   2. Any staged content containing a secret value from the local .env
+#      (catches keys pasted into code, notebooks, or recorded test fixtures).
+
+status=0
+
+for f in $(git diff --cached --name-only --diff-filter=ACMR); do
+  case "$(basename "$f")" in
+    .env.example) ;;
+    .env|.env.*) echo "pre-commit: refusing to commit secrets file: $f" >&2; status=1 ;;
+  esac
+  case "$f" in
+    data/private/*) echo "pre-commit: refusing to commit non-redistributable data: $f" >&2; status=1 ;;
+  esac
+done
+
+if [ -f .env ]; then
+  # Values of non-empty KEY=VALUE lines, quotes stripped; skip short values to avoid false hits.
+  sed -n 's/^[A-Za-z_][A-Za-z0-9_]*=//p' .env | tr -d "\"'" | while read -r value; do
+    [ ${#value} -lt 8 ] && continue
+    if git diff --cached -U0 | grep -F -q -- "$value"; then
+      echo "pre-commit: a value from .env appears in the staged changes; remove it before committing." >&2
+      exit 1
+    fi
+  done || status=1
+fi
+
+exit $status

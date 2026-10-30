@@ -1,0 +1,5 @@
+# Streamlit settings for the demo app (src/chattfinch/app.py).
+
+[browser]
+# Don't send usage statistics to Streamlit.
+gatherUsageStats = false

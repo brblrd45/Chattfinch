@@ -1,0 +1,10 @@
+[
+  {"speciesCode": "soclap1", "comName": "Sociable Lapwing", "sciName": "Vanellus gregarius",
+   "locId": "L0000001", "locName": "Example Steppe Lake", "obsDt": "2026-10-01 07:30", "howMany": 12,
+   "lat": 50.1, "lng": 69.2, "obsValid": true, "obsReviewed": false, "locationPrivate": false,
+   "subId": "S000000001"},
+  {"speciesCode": "gragoo", "comName": "Graylag Goose", "sciName": "Anser anser",
+   "locId": "L0000002", "locName": "Example Private Garden", "obsDt": "2026-09-30 18:05",
+   "lat": 43.2, "lng": 76.9, "obsValid": true, "obsReviewed": false, "locationPrivate": true,
+   "subId": "S000000002"}
+]

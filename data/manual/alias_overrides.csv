@@ -1,0 +1,13 @@
+alias,species_code,action,note
+Bearded,bearee1,remove,"fragment of Bearded Reedling, not a name"
+Bewick’s,tunswa,remove,"surname fragment (Bewick's Swan), not a name"
+Blk,eurbla,remove,GBIF abbreviation
+Booby,comter,remove,"GBIF junk: a booby is a different bird"
+Cetti's,cetwar1,remove,"surname fragment (Cetti's Warbler), not a name"
+Egypt,spofly1,remove,bad Wikipedia redirect
+Kāhawai,caster1,remove,"Wikipedia redirect; also a fish, and the bot is English-only"
+Little,litter1,remove,"bad Wikipedia redirect, an ordinary adjective"
+Purple,purher1,remove,"fragment of Purple Heron, not a name"
+Snowy,snoowl1,remove,"fragment of Snowy Owl, not a name"
+Temminck’s,temsti,remove,"surname fragment (Temminck's Stint), not a name"
+Thr,sonthr1,remove,GBIF abbreviation

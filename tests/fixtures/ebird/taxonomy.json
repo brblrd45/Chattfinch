@@ -1,0 +1,116 @@
+[
+  {
+    "sciName": "Pernis apivorus x ptilorhynchus",
+    "comName": "European x Oriental Honey-buzzard (hybrid)",
+    "speciesCode": "x00786",
+    "category": "hybrid",
+    "taxonOrder": 7915.0,
+    "bandingCodes": [],
+    "comNameCodes": [
+      "ORHB",
+      "OHBU",
+      "EUHB",
+      "CRHB",
+      "EHBU",
+      "CHBU"
+    ],
+    "sciNameCodes": [
+      "PEPT",
+      "PEAP"
+    ],
+    "order": "Accipitriformes",
+    "familyCode": "accipi1",
+    "familyComName": "Hawks, Eagles, and Kites",
+    "familySciName": "Accipitridae"
+  },
+  {
+    "sciName": "Vanellus gregarius",
+    "comName": "Sociable Lapwing",
+    "speciesCode": "soclap1",
+    "category": "species",
+    "taxonOrder": 5894.0,
+    "bandingCodes": [],
+    "comNameCodes": [
+      "SOLA"
+    ],
+    "sciNameCodes": [
+      "VAGR"
+    ],
+    "order": "Charadriiformes",
+    "familyCode": "charad1",
+    "familyComName": "Plovers and Lapwings",
+    "familySciName": "Charadriidae"
+  },
+  {
+    "sciName": "Grus virgo",
+    "comName": "Demoiselle Crane",
+    "speciesCode": "demcra1",
+    "category": "species",
+    "taxonOrder": 5713.0,
+    "bandingCodes": [],
+    "comNameCodes": [
+      "DECR"
+    ],
+    "sciNameCodes": [
+      "GRVI"
+    ],
+    "order": "Gruiformes",
+    "familyCode": "gruida1",
+    "familyComName": "Cranes",
+    "familySciName": "Gruidae"
+  },
+  {
+    "sciName": "Caprimulgus europaeus",
+    "comName": "Eurasian Nightjar",
+    "speciesCode": "eurnig1",
+    "category": "species",
+    "taxonOrder": 3639.0,
+    "bandingCodes": [],
+    "comNameCodes": [
+      "EUNI"
+    ],
+    "sciNameCodes": [
+      "CAEU"
+    ],
+    "order": "Caprimulgiformes",
+    "familyCode": "caprim2",
+    "familyComName": "Nightjars and Allies",
+    "familySciName": "Caprimulgidae"
+  },
+  {
+    "sciName": "Syrrhaptes paradoxus",
+    "comName": "Pallas's Sandgrouse",
+    "speciesCode": "palsan1",
+    "category": "species",
+    "taxonOrder": 2863.0,
+    "bandingCodes": [],
+    "comNameCodes": [
+      "PASA"
+    ],
+    "sciNameCodes": [
+      "SYPA"
+    ],
+    "order": "Pterocliformes",
+    "familyCode": "pteroc1",
+    "familyComName": "Sandgrouse",
+    "familySciName": "Pteroclidae"
+  },
+  {
+    "sciName": "Anser anser",
+    "comName": "Graylag Goose",
+    "speciesCode": "gragoo",
+    "category": "species",
+    "taxonOrder": 275.0,
+    "bandingCodes": [
+      "GRGO"
+    ],
+    "comNameCodes": [],
+    "sciNameCodes": [
+      "ANAN"
+    ],
+    "order": "Anseriformes",
+    "familyCode": "anatid1",
+    "familyComName": "Ducks, Geese, and Waterfowl",
+    "familySciName": "Anatidae"
+  }
+]

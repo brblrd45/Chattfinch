@@ -1,0 +1,46 @@
+# --- Secrets: never bake into an image ---
+# Pass keys at runtime instead: `docker run --env-file .env ...`
+# Unlike .gitignore, Docker matches patterns only from the build root, so **/ is
+# needed to catch nested copies.
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+**/secrets/
+**/credentials*.json
+
+# --- VCS / tooling ---
+# .git can hold secrets in history or stashes, and it's large.
+.git
+.gitignore
+.dockerignore
+scripts/hooks/
+.vscode/
+.idea/
+**/.claude/
+**/.claude.json
+**/CLAUDE.local.md
+**/.DS_Store
+
+# --- Python ---
+**/__pycache__/
+**/*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+**/*.egg-info/
+build/
+dist/
+
+# --- Not needed at runtime ---
+tests/
+plan/
+**/.Rhistory
+
+# --- Data ---
+# Raw API pulls are regenerable and may be large.
+data/raw/*
+# data/index/ is NOT ignored: the image includes the vector index on purpose (see Dockerfile).
+# IUCN Red List data: the terms forbid redistribution, and a published image would
+# redistribute it. Mount it at runtime instead (e.g. -v ./data/private:/app/data/private:ro).
+data/private/

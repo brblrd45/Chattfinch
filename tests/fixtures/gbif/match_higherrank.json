@@ -1,0 +1,15 @@
+{
+    "usageKey": 212,
+    "scientificName": "Aves",
+    "canonicalName": "Aves",
+    "rank": "CLASS",
+    "status": "ACCEPTED",
+    "confidence": 100,
+    "matchType": "HIGHERRANK",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "kingdomKey": 1,
+    "phylumKey": 44,
+    "classKey": 212,
+    "class": "Aves"
+}

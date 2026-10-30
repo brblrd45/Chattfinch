@@ -1,0 +1,17 @@
+# Pin versions on day 7.
+# Data ingestion (day 1)
+httpx
+pandas
+pyarrow
+python-dotenv
+# Retrieval (day 2)
+sentence-transformers  # embedding model (pulls in torch)
+chromadb               # vector store
+# Answer generation (day 3)
+anthropic
+# User interface (day 3)
+python-telegram-bot
+streamlit  # optional: local inspection view only (src/chattfinch/app.py)
+# Tests
+pytest
+respx  # mocks httpx in tests

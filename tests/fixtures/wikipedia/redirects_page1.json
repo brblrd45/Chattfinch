@@ -1,0 +1,27 @@
+{
+    "continue": {
+        "rdcontinue": "12421648",
+        "continue": "||"
+    },
+    "query": {
+        "pages": [
+            {
+                "pageid": 195656,
+                "ns": 0,
+                "title": "European nightjar",
+                "redirects": [
+                    {
+                        "pageid": 614314,
+                        "ns": 0,
+                        "title": "Eurasian Nightjar"
+                    },
+                    {
+                        "pageid": 1992636,
+                        "ns": 0,
+                        "title": "Caprimulgus europaeus"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "usageKey": 8109681,
+    "scientificName": "Caprimulgus europaeus Linnaeus, 1758",
+    "canonicalName": "Caprimulgus europaeus",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "confidence": 100,
+    "matchType": "EXACT",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "order": "Caprimulgiformes",
+    "family": "Caprimulgidae",
+    "genus": "Caprimulgus",
+    "species": "Caprimulgus europaeus",
+    "kingdomKey": 1,
+    "phylumKey": 44,
+    "classKey": 212,
+    "orderKey": 8510645,
+    "familyKey": 5225,
+    "genusKey": 2496826,
+    "speciesKey": 8109681,
+    "class": "Aves"
+}

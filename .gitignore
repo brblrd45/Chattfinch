@@ -1,0 +1,43 @@
+# --- Secrets: never commit ---
+# Any .env variant (.env, .env.local, .env.prod, ...), except the template.
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials*.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# --- Data ---
+# This public repository holds code only. The data (dumps, corpus, eval runs) is
+# regenerated locally with scripts/build_dumps.py and kept out of the repository:
+# Wikipedia text is CC BY-SA and the eval sheets quote it.
+data/dumps/*
+!data/dumps/.gitkeep
+data/eval_runs/
+# Raw API pulls are regenerable.
+data/raw/*
+!data/raw/.gitkeep
+# The vector store (~70 MB of binary files that change on every rebuild) is regenerated
+# by scripts/build_index.py instead of committed.
+data/index/
+# Data whose license forbids redistribution (IUCN Red List). Used locally, never committed.
+data/private/
+
+# --- Editor / OS / tooling ---
+.vscode/
+.idea/
+.DS_Store
+# Claude Code project files (settings, local memory, worktrees).
+.claude/
+.claude.json
+CLAUDE.local.md
